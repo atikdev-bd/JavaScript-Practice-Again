@@ -12,7 +12,7 @@
     <script>
       document.write("JavaScript Loop <br>");
 
-     /* var i;
+      /* var i;
 
       for (i = 0; i < 10; i = i + 1) {
         // ai mathod skip korar jonno babohoar kora hoi//
@@ -30,7 +30,7 @@
       }
       */
 
-      let category = ['patato', 'tomato', 'banana', 'jackFruts'];
+      /** let category = ['patato', 'tomato', 'banana', 'jackFruts'];
 
       let i ; 
 
@@ -38,7 +38,20 @@
 
         document.write(`<ul><li>${category[i]}</li></ul>`)
       }
+      **/
 
+      /// javaScript Objecs///
+
+      let person = {
+        name: "Atikur Rahman",
+        age: 25,
+        city: "Rajshahi",
+        village: "Patisar",
+      };
+
+      for (item in person) {
+        document.write(person[item] + "<br>");
+      }
     </script>
   </body>
 </html>
